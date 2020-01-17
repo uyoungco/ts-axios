@@ -1,4 +1,4 @@
-import DummyClass from '../src/ts-axios'
+import axios from '../src/index'
 
 /**
  * Dummy test
@@ -6,9 +6,5 @@ import DummyClass from '../src/ts-axios'
 describe('Dummy test', () => {
   it('works if true is truthy', () => {
     expect(true).toBeTruthy()
-  })
-
-  it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
   })
 })
